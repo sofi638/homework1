@@ -1,0 +1,61 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(46, 44, 44);
+}
+
+.container{
+    background: linear-gradient(to bottom right, #23caa9, #2980b9);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+}
+.p-1{
+    background-color: white;
+    padding: 14px;
+    width: 220px;
+    color: gray;
+    border-radius: 20px;
+text-align: start;
+margin-left: 30px;
+}
+
+.cont-1{
+    margin-bottom: 270px;
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 50px;
+}
+
+
+.fa-magnifying-glass{
+    background-color: white;
+  padding: 15px;
+    color: gray;
+   border-radius: 100%;
+
+}
+.cont-search{
+    display: flex;
+   margin-left: 60px;
+}
+
+
+.rain-img{
+    width: 170px;
+    position: relative;
+    top: 110px;
+    right: 300px;
+}
+
+.cont-weather{
+    color: white;
+    position: relative;
+    top: 230px;
+    right: 450px;
+    width: 300px;
+}
