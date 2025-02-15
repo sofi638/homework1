@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
+      <div class="top-side">
+        <p class="p-1">Enter City Name</p>
 
-        <div class="cont-1">
-            <p class="p-1">
-                Enter City Name
-            </p>
-        
-           
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
 
-            <i class="fa-solid fa-magnifying-glass"></i>
-        
-      
-            <img class="rain-img" src="rain.png" alt="">
-     
-       <div class="cont-weather">
+      <img class="raining" src="rain.png" alt="" />
 
-        <h1>
-            22 °C
-        </h1>
-        <h2>
-            New York
-        </h2>
+      <div class="cont-celsius">
+        <h1>22 °C</h1>
+        <h2>New York</h2>
+      </div>
 
-
-       </div>     
-
-<div class="cont-end">
-
-    <i class="fa-solid fa-water"></i>
-
-
-</div>
-           
-      
-        
+      <div class="weather">
+        <div class="small">
+          <i class="fa-solid fa-water"></i>
+          <div>
+            <h3>50%</h3>
+            <h3 class="wind">Humidity</h3>
+          </div>
         </div>
-        
-        
-        
+        <div class="small">
+          <i class="fa-solid fa-wind"></i>
+          <div>
+            <h3>15 km/h</h3>
+            <h3 class="wind">Wind Speed</h3>
+          </div>
         </div>
-
-
-</body>
+      </div>
+    </div>
+  </body>
 </html>
