@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background: linear-gradient(to bottom right, #23caa9, #2980b9);
+  background: linear-gradient(#90eeba, #64bad6, #9d7edb);
   width: 400px;
   border-radius: 10px;
 }
@@ -47,13 +47,26 @@ body {
   color: white;
 }
 
+.celsius {
+  font-size: 60px;
+}
+.ny {
+  font-size: 30px;
+  margin-top: -50px;
+}
+
 .weather {
   color: white;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 40px;
 }
-
+.percent {
+  font-size: 25px;
+}
+.kmh {
+  font-size: 25px;
+}
 .small {
   display: flex;
   align-items: center;
