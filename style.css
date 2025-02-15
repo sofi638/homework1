@@ -26,6 +26,7 @@ body {
   color: gray;
   border-radius: 100%;
 }
+
 .cont-search {
   display: flex;
   margin-left: 60px;
@@ -63,9 +64,14 @@ body {
 }
 .percent {
   font-size: 25px;
+  margin: 0;
 }
 .kmh {
   font-size: 25px;
+  margin: 0;
+}
+.wind {
+  margin: 0;
 }
 .small {
   display: flex;
